@@ -1,0 +1,410 @@
+/* body */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header */
+#heading {
+    display: flex;
+    align-items: center;
+    margin: 0px 12rem;
+}
+
+#list-items-1 {
+    display: flex;
+    position: absolute;
+    right: 12rem;
+    list-style: none;
+}
+
+#list-anchor {
+    color: #2f2fa9;;
+    text-decoration: none;
+}
+
+#list-anchor a{
+    text-decoration: none;
+}
+
+.list-1-items {
+    padding: 0px 26px;
+    color: rgb(100, 100, 100);
+}
+
+.list-horizontal {
+    background-color: gray;
+}
+
+/* Nav-1 */
+
+#nav-bar {
+    display: flex;
+    background-color: #bfbcbc;
+}
+
+#list-items-2 {
+    display: flex;
+    list-style: none;
+    height: 40px;
+    justify-content: space-between;
+}
+
+#list-items-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-hr {
+    margin: 1px 0px;
+    background-color: #bfbcbc;
+}
+
+.list-2-items {
+    padding: 10px 0px;
+
+}
+
+#list-2 {
+    width: 64rem;
+    margin-left: 12.3rem
+}
+
+#search {
+    padding: 10px 0px;
+}
+
+#nav-btn {
+    height: 20px;
+    margin-top: 9px;
+    width: 38px;
+    font-size: 12px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+#nav-btn:hover {
+    cursor: pointer;
+}
+
+#search-box {
+    width: 12rem;
+    height: 20px;
+    border-width: 0px;
+    box-shadow: 1px 1px 3px black inset;
+    margin-left: 12rem;
+}
+
+::placeholder {
+    font-size: 1em;
+    color: #5d5d5d;
+    padding: 8px;
+}
+
+
+
+/* Nav-2 */
+#list-3 {
+    display: flex;
+    margin-left: 12.3rem;
+    height: 68px;
+}
+
+#list-3-1 {
+    display: flex;
+    width: 74rem;
+    padding-top: 22px;
+}
+
+#list-items-3 {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #bfbcbc;
+}
+
+#list-items-3 a {
+    text-decoration: none;
+    color: rgb(63, 63, 172);
+    padding: 0px 145px;
+}
+
+#list-3-items {
+    margin-left: 10rem;
+
+}
+
+#list-3-2 {
+    display: flex;
+    width: 17rem;
+}
+
+#p-registry {
+    margin-top: 10px;
+}
+
+/* Main-img*/
+#bg-img {
+    height: 70rem;
+    background-image: url(../background/background.png);
+}
+
+#border {
+    height: 43%;
+    width: 95.3rem;
+    border: 8px solid white;
+    margin-left: 190px;
+    display: flex;
+}
+
+#border img {
+    height: 100%;
+    width: 75%;
+}
+
+#border-hr{
+    border: 3px solid white;
+}
+
+#info-table {
+    background-color: rgb(60 58 58);
+    color: white;
+    width: 25%;
+    border: 9px solid rgb(60 58 58);
+    
+}
+
+#info {
+    margin: -2px 0px 0px 2px;
+    border: 2px solid gray;
+    height: 99%;
+    width: 98%;
+}
+
+#info-para {
+    padding-top: 37px;
+    font-size: 29px;
+    margin-left: 21%;
+}
+
+#info-msg-para {
+    /* border: 2px solid green; */
+    color: gray;
+    width: 180px;
+    height: 58px;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 21%;
+    margin-top: 13px;
+    line-height: 20px;
+}
+
+#info-content{
+    /* border: 2px solid red; */
+    text-align: left;
+    margin: auto;
+    width: 220px;
+    height: 162px;
+    list-style: none;
+    margin-top: 31px;
+    margin-left: 21%;
+}
+
+.info-list{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    /* padding-left: 1rem; */
+    font-size: 15px;
+}
+
+.info-hr{
+    width: 210px;
+    border-top: 0.5px solid gray;
+}
+
+#info-link{
+    text-align: left;
+    margin-left: 21%;
+    color: gray;
+    margin-top: 61px;
+}
+
+#info-link-a{
+    color: gray;
+    font-size: 11px;
+}
+
+/* Main-cards */
+#cards{
+    background-color: white;
+    height: 23.4%;
+    width: 95.3rem;
+    border: 8px solid black;
+    margin-left: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#para1-cards-1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#para1-cards-2{
+    font-size: 18sspx;
+    margin-top: 10px;
+    margin-left: 23px;
+    color: #938d8d;
+}
+
+#cards-1-1{
+    display: flex;
+}
+
+#p-cards-1-1{
+    margin-top: 12%;
+    color: #2f2fa9;
+    font-size: 17px;
+}
+
+#p-cards-1-1 a{
+    color: #2f2fa9;
+    text-decoration: none;
+}
+
+#para1-cards-2-1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#para1-cards-2-2{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 23px;
+    color: #938d8d;
+}
+
+#cards-2-1{
+    display: flex;
+}
+
+#cards-2-1 img{
+    width: 77%;
+    margin-top: 7.7%;
+}
+
+#p-cards-1-2{
+    margin-top: 12%;
+    font-size: 17px;
+    width: 35%;
+}
+
+#p-cards-1-2 a{
+    color: #2f2fa9;
+    text-decoration: none;
+}
+
+#cards-3{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 31%;
+}
+
+#p-cards-info-1{
+    width: 132%;
+    font-size: 24px;
+    margin-top: 30px;
+}
+#p-cards-info-2{
+    font-size: 15px;
+    color: #938d8d;
+    margin-top: 32px;
+    width: 133%;
+}
+#p-cards-info-3{
+    font-size: 17px;
+    margin-top: 32px;
+}
+#p-cards-info-3 a{
+    color: #2f2fa9;
+    text-decoration: none;
+}
+.cards-hr{
+    height: 209px;
+    margin-top: 27px;
+}
+
+/* footer */
+#footer-links{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: 190px;
+    width: 96rem;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+#footer-links-list{
+    display: flex;
+    /* border: 2px solid white; */
+    /* border-color: #938d8d; */
+    list-style: none;
+    justify-content: space-between;
+    width: 69%;
+}
+
+.link-list-items a{
+    color: #938d8d;
+    padding: auto;   
+}
+
+#para-footer-1{
+    color: #938d8d;
+    margin-top: 12px;
+}
+#para-footer-1 a{
+    color: #938d8d;
+}
+#para-footer-2{
+    color: #938d8d;
+    margin-top: 8px;
+}
+
+#para-footer{
+    color: #938d8d;
+}
+
+#footer-email{
+    color: #938d8d;
+    margin-top: 12px;
+}
+
+#email-box{
+    width: 200px;
+    height: 19px;
+    box-shadow: 1px 1px 3px black inset;
+    border-width: 0px;
+}
+
+#btn-sign{
+    width: 77px;
+    height: 22px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+/* #btn-sign ::placeholder{
+    color: black;
+}
+
+button ::placeholder{
+    color: black;
+} */
+
+/* #btn-sign::placeholder {
+    font-size: 1em;
+    color: black;
+    padding: 8px;
+} */
