@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 /* body */
 * {
     padding: 0px;
@@ -52,7 +53,8 @@
 }
 .list-1-items a{
     color: rgb(100, 100, 100);
-    text-decoration: none;;
+    text-decoration: none;
+    font-family: 'Noto Sans','sans-serif';
 }
 
 .list-horizontal {
@@ -273,7 +275,7 @@
 
 .info-hr {
     width: 158%;
-    border: 0.5px solid gray;
+    border: 0.5px solid #4e4e4e;
 }
 
 #info-link {
@@ -426,7 +428,6 @@
 #footer-links {
     font-size: 18px;
     display: flex;
-    /* border: 2px solid red; */
     margin-left: 160px;
     width:100rem;
     justify-content: space-between;
@@ -435,8 +436,6 @@
 
 #footer-links-list {
     display: flex;
-    /* border: 2px solid white; */
-    /* border-color: #938d8d; */
     list-style: none;
     justify-content: space-between;
     width: 61%;
