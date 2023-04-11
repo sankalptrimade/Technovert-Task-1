@@ -13,7 +13,7 @@
 #heading {
     display: flex;
     align-items: center;
-    margin: 0px 135px;
+    margin: 0rem 8.4375em;
 }
 
 #list-items-1 {
@@ -50,12 +50,12 @@
 }
 
 .list-1-items img {
-    width: 18px;
-    height: 21px;
+    width: 19px;
+    height: 22px;
 }
 
 .list-1-items a {
-    color: rgb(100, 100, 100);
+    color: #646464;
     text-decoration: none;
     font-family: 'Noto Sans', 'sans-serif';
 }
@@ -172,7 +172,7 @@
 
 #list-3-1 p {
     font-size: 20.6px;
-    color: rgb(63, 63, 172);
+    color: #3F3FAC;
 }
 
 #list-3-1-items {
@@ -193,7 +193,7 @@
 
 #list-items-3 a {
     text-decoration: none;
-    color: rgb(63, 63, 172);
+    color: #3F3FAC;
     font-size: 20.6px;
 }
 
@@ -209,7 +209,7 @@
 #p-registry {
     margin-top: 10px;
     margin-left: 11px;
-    width: 142px;
+    width: 8.875rem;
     margin-top: 14px;
     font-size: 21px;
     color: #000064;
@@ -273,8 +273,8 @@ main {
 
 #info-msg-para {
     color: gray;
-    width: 288px;
-    height: 70px;
+    width: 18rem;
+    height: 4.375rem;
     font-size: 18px;
     text-align: justify;
     margin-left: 10%;
@@ -286,8 +286,8 @@ main {
 
 #info-content {
     text-align: left;
-    width: 220px;
-    height: 162px;
+    width: 13.75rem;
+    height: 10.125rem;
     list-style: none;
     margin-top: 50px;
     margin-left: 9%;
@@ -315,7 +315,7 @@ main {
     text-align: left;
     margin-left: 9%;
     color: gray;
-    margin-top: 150px;
+    margin-top: 9.375rem;
 }
 
 #info-link-a {
@@ -329,7 +329,7 @@ main {
     height: 25%;
     width: 99.093rem;
     border: 8px solid black;
-    margin-left: 161px;
+    margin-left: 10.063rem;
     display: flex;
 }
 
